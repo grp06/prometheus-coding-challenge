@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "448c4865530d945b2caf",
-    "url": "/prometheus-coding-challenge/static/css/main.4cd9240f.chunk.css"
+    "revision": "fb031cbcf7ca0cd04e2a",
+    "url": "/prometheus-coding-challenge/static/css/main.08a3deb2.chunk.css"
   },
   {
-    "revision": "448c4865530d945b2caf",
-    "url": "/prometheus-coding-challenge/static/js/main.1abad3ab.chunk.js"
+    "revision": "fb031cbcf7ca0cd04e2a",
+    "url": "/prometheus-coding-challenge/static/js/main.e14309da.chunk.js"
   },
   {
     "revision": "b06e7a0866f53bddae2e",
@@ -16,7 +16,7 @@ self.__precacheManifest = [
     "url": "/prometheus-coding-challenge/static/js/2.50a451c8.chunk.js"
   },
   {
-    "revision": "c53c16eb01f461bee37342098e537e20",
+    "revision": "21c9f744579f5f0fcb14ff70a89c9b53",
     "url": "/prometheus-coding-challenge/index.html"
   }
 ];
