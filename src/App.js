@@ -131,30 +131,30 @@ class App extends Component {
                   <div className='name'>{country.name}</div>
                   <div className='country-info'>
                     <div>
-                      <span>Alpha2Code:</span> {alpha2Code}
+                      <span>🤔 Alpha2Code:</span> {alpha2Code}
                     </div>
                     <div>
-                      <span>Capital:</span> {capital}
+                      <span>🏛️ Capital:</span> {capital}
                     </div>
                     <div>
-                      <span>Region:</span> {region}
+                      <span>🏞️ Region:</span> {region}
                     </div>
                     <div>
-                      <span>Population:</span> {population}
+                      <span>👨‍👩‍👧‍👧 Population:</span> {population}
                     </div>
                     <div>
-                      <span>Area:</span> {area}
+                      <span>📐Area:</span> {area}
                     </div>
                     <div>
-                      <span>Population Density:</span>
-                      <br />
-                      {Math.round(population / area)} people per sq/mi
+                      <span>🏢 Population Density:</span>
+
+                      <p>{Math.round(population / area)} people per sq/mi</p>
                     </div>
                     <div>
-                      <span>Number of Timezones:</span> {timezones.length}
+                      <span>⏰ Number of Timezones:</span> {timezones.length}
                     </div>
                     <div>
-                      <span>Languages Spoken:</span>
+                      <span>👅 Languages Spoken:</span>
                       <ul>
                         {languages.map((language, index) => (
                           <li key={index}>{language}</li>
