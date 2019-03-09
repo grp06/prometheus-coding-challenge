@@ -5,6 +5,7 @@
   width: 400px;
   margin: 0 auto;
   padding: 15vh 0;
+  position: relative;
   .region-block {
     .region-name {
       font-size: 18px;
@@ -91,5 +92,13 @@
       height: 0;
       display: none;
     }
+  }
+  .tips {
+    width: 250px;
+    border: 1px solid #ccc;
+    top: 5px;
+    left: 5px;
+    position: fixed;
+    padding: 5px;
   }
 }

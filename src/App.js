@@ -173,7 +173,15 @@ class App extends Component {
   }
 
   render() {
-    return <div className='App'>{this.renderContent()}</div>
+    return (
+      <div className='App'>
+        {this.renderContent()}
+        <div className='tips'>
+          ⚡Click a Region to expand. <br />
+          ⚡Hover for more details
+        </div>
+      </div>
+    )
   }
 }
 
