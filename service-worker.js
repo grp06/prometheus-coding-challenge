@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/prometheus-coding-challenge/precache-manifest.b25cec5d7510cf918499c28e7981562a.js"
+  "/prometheus-coding-challenge/precache-manifest.89af010ab90ec82baa1e03da9fbf5aa6.js"
 );
 
 workbox.clientsClaim();
